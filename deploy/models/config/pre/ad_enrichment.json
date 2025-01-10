@@ -1,7 +1,7 @@
 {
   "model_name": "Ad enrichment",
-  "model_version": "5",
+  "model_version": "8",
   "model_env": "pre",
   "model_description": "Model for ad enrichment using finetuned version llama 3.2 vision",
-  "model_alias": "baseline"
+  "model_alias": "challenger"
 }
