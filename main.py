@@ -12,6 +12,10 @@ Code in relation the MLOPS project from an idea to running A/B experiment in a c
 - This code is small part of bigger code aiming at adding MLOPS to our entire stack.
 - The goal was to signifincanly improve the number of A/B experiments we ran by automating the entire ML pipeline from featuring engineering to model deployment, model monitoring and performing A/B experimenatations.
 - This project has allow us to experiment more frequently and deliver quite a lot of business value.
+
+How to run the code:
+- This code will trigger automatically by a github action when the data scientist changed the model configuration with the version of the ML model to be roll out or roll back
+- CI/CD will run: python promote.py dev
 """
 
 import argparse
