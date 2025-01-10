@@ -44,8 +44,7 @@ CHALLENGER_ALIAS_PREFIX = "challenger"
 DEV, PRE, PRO = "dev", "pre", "pro"
 CONFIG_PATH = "deploy/models/config"
 ML_PROJECT_1, ML_PROJECT_2, ML_PROJECT_3 = "ad_enrichment", "buyers_embeddings", "sellers_embeddings"
-MLFLOW_TRACKING_URI = "http://127.0.0.1:8001/api/v1/namespaces/ml/services/mlflow:http/proxy"
-# MLFLOW_TRACKING_URI = "http://127.0.0.1:8080"
+MLFLOW_TRACKING_URI = "http://127.0.0.1:8080"
 
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
