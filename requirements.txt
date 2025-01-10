@@ -1,0 +1,8 @@
+# Testing framework
+pytest
+
+# MLflow version for experiment tracking and model registry
+mlflow==2.19.0
+
+# Data validation and settings management
+pydantic==2.10.5
